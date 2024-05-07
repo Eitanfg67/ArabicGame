@@ -47,7 +47,7 @@ function getOptions() {
 
     Ranswer = shuffledOptions[Math.floor(Math.random() * 4)];
 
-    let imgSrc = `${Ranswer}.png`;
+    let imgSrc = `${Ranswer}.PNG`;
     document.getElementById("equation").innerHTML = `<img src="${imgSrc}">`;
     
 
